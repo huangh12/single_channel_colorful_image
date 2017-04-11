@@ -8,7 +8,7 @@ from PIL import Image
 import numpy as np
 from datasets import CONFIG
 
-# The im is a predicted result of a cat
+# The arr is a predicted result
 arr = np.load('arr.npy')
 
 print 'The shape of the image is:', arr.shape
